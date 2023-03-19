@@ -12,25 +12,15 @@ export const ButtonFeedback = styled.button`
   width: 150px;
   font-size: 20px;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  background-color: white;
+  background-color: #C3C1C1;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  :hover,
-  :focus {
-    background-color: ${key => {
-      switch (key.children) {
-        case 'good':
-          return 'green';
-        case 'neutral':
-          return 'orange';
-        case 'bad':
-          return 'red';
-        default:
-          return 'transparent';
-      }
-    }};
-    color: white;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #00CCCC;
   }
 `;

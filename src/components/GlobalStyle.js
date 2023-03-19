@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
 export const GlobalStyle = createGlobalStyle`
 body {
-  background-color: #11ffee00;
+  background-color: #E5FFCC;
   text-align: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
